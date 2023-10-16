@@ -1,0 +1,67 @@
+.calle {
+    text-align: center;
+    font-weight: 700;
+    width: 100%;
+}
+.email {
+    font-weight: 700;
+    width: 100%;;
+}
+
+.contactos {
+    @include flex (none, wrap,center,center,none);
+    a{
+        margin: 30px;
+        img {
+            height: 100px;
+            width: 100px;
+            filter: $filter-brown ;
+        }
+    }
+}
+
+.conteiner-form {
+    @include flex (none,none,center,center,none);
+    padding: 30px;
+    .form {
+        @include flex (column, none, center,none,none);
+        border: 10px solid black;
+        border-radius: 6px;
+        padding: 20px;
+        width: 100%;
+        font-weight: 600;
+        h4 {
+            text-align: center;
+            color: $bg-secundario;
+            font-size: map-get($font-size, xl);
+        }
+        input { 
+        padding: 10px;
+        background-color: beige;
+        margin: 10px 0px;
+        border-radius: 10px;
+        }
+        textarea {
+            background-color: beige;
+            padding: 10px;
+        }
+        
+    }
+}
+
+
+#submit {
+    font-weight: 600;
+    &:hover {
+        cursor: pointer;
+        background-color: #e89f9f;
+    }
+}
+
+iframe {
+    border-radius: 60px;
+    padding: 50px 50px;
+    height: 700px;
+    width: 100%;
+    
+}

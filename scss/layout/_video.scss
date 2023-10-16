@@ -1,0 +1,10 @@
+.video {
+    @include flex (none, wrap,space-evenly,none, none);
+    width: 100%;
+   
+}
+
+.video video {
+    width: 25%;
+    padding: 30px;
+}

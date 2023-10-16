@@ -1,0 +1,56 @@
+@media (min-width: 425px) and (max-width: 767px) {
+    .nav {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .nav ul{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    main h1 {
+        font-size: map-get($font-size, xl );
+        
+    }
+
+    main h2 {
+        font-size: map-get($font-size, xl );
+        font-weight: 700;
+    }
+
+    p {
+        font-size: 2rem;
+    }
+
+    .video video {
+        width: 50%;
+    }
+    
+    
+    footer {
+        font-size: 1.5rem;
+    }
+    
+    .productos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contactos a img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .conteiner-form .form {
+        border: none;
+        padding: 0px;
+    }
+    .horario {
+        padding: 0px;
+    }
+}

@@ -1,0 +1,22 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+    .nav {
+        display: block;
+    }
+    .nav div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .video video {
+        width: 40%;
+    }
+    .nav a {
+        margin: -10px;
+    }
+    main h1 {
+        font-size: map-get($font-size, xl );
+    }
+    
+       
+}
