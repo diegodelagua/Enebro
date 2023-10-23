@@ -35,12 +35,6 @@
         font-size: 1.2rem;
     }
     
-    .productos {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
     
     .productos div {
         display: flex;
@@ -52,14 +46,6 @@
         align-items: center;
     }
 
-
-
-    .item img {
-        height: 90%;
-        width: 90%;
-        
-    }
-    
     main p {
         margin: 0;
         width: 320px;
